@@ -28,7 +28,7 @@ body {
 
     width: 100%;
     max-width: 62.5rem;
-    min-width: 375px;
+    min-width: 23.45rem;  /*375px*/
     min-height: calc(var(--space-unit)*32);
 
     border-radius: var(--spacing-sm);
@@ -47,15 +47,15 @@ body {
     justify-content: space-between;
     align-items: flex-start;
 
-    flex: 1 1 250px;
+    flex: 1 1 15.625rem;  /*250px*/
 
     height: calc(var(--space-unit)*32);
-    max-width: 350px;
+    max-width: 21.875rem;  /*350px*/
 
     padding: var(--spacing-2xlg);
 
     img {
-        width: 4rem;
+        width: 0.25rem;
     }
 
     p {
@@ -69,7 +69,7 @@ body {
         text-align: center;
         border-radius: var(--spacing-xlg);
 
-        border: 2px solid var(--clr-neutral-grey);
+        border: 0.125rem solid var(--clr-neutral-grey);
 
         white-space: nowrap;
 
@@ -83,7 +83,7 @@ body {
         &:focus-visible {
             background-color: transparent;
             color: var(--clr-neutral-grey);
-            border: 2px solid var(--clr-neutral-grey);
+            border: 0.125rem solid var(--clr-neutral-grey);
             outline: 0;
         }
 
@@ -154,14 +154,14 @@ body {
 }
 
 .btn:focus-visible {
-    border: 2px solid var(--clr-active-green);
+    border: 0.125rem solid var(--clr-active-green);
     outline: none;
-    border-radius: 12px;
+    border-radius: 0.75rem;
 
 }
 
 .btn img {
-    width: 18px;
+    width: 1.125rem;
 }
 
 .attribution {
@@ -189,6 +189,7 @@ body {
 
 
 }
+
 
 
 
