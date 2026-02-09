@@ -27,7 +27,7 @@ body {
 
 
     width: 100%;
-    max-width: 1000px;
+    max-width: 62.5rem;
     min-width: 375px;
     min-height: calc(var(--space-unit)*32);
 
@@ -189,6 +189,7 @@ body {
 
 
 }
+
 
 
 
