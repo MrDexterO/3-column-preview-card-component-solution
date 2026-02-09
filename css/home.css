@@ -75,6 +75,10 @@ body {
 
         transition: background-color 0.2s ease-in-out;
 
+        @media (prefers-reduced-motion: reduce) {
+            transition: background-color 0.01s ease-in-out;
+        }
+
         &:hover,
         &:focus-visible {
             background-color: transparent;
@@ -181,3 +185,4 @@ body {
 
 
 }
+
