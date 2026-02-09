@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/MrDexterO/3-column-preview-card-component-solution)
-- Live Site URL: [Site URL](https://mrdextero.github.io/product-preview-card-component-solution/)
+- Live Site URL: [Site URL](https://mrdextero.github.io/3-column-preview-card-component-solution/)
 
 ## My process
 
