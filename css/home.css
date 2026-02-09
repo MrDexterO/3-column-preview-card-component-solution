@@ -59,7 +59,7 @@ body {
     }
 
     p {
-        margin-bottom: var(--spacing-2xlg);
+        block-end: var(--spacing-2xlg);
     }
 
     a {
@@ -177,6 +177,7 @@ body {
             outline: 0;
         }
     }
+
 
 
 }
